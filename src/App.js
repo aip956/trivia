@@ -3,7 +3,7 @@ import {useEffect, useState} from 'react'
 import {query as q, Client} from 'faunadb'
 import rw from 'random-words'
 // import 'abortcontroller-polyfill/dist/polyfill-patch-fetch'
-import "abort-controller/polyfill"
+// import "abort-controller/polyfill"
 
 
 function App() {
