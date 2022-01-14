@@ -2,7 +2,7 @@ import {Box, Stack, useMediaQuery} from '@chakra-ui/react'
 import {useEffect, useState} from 'react'
 import {query as q, Client} from 'faunadb'
 import rw from 'random-words'
-import 'abortcontroller-polyfill/dist/polyfill-patch-fetch'
+// import 'abortcontroller-polyfill/dist/polyfill-patch-fetch'
 import "abort-controller/polyfill"
 
 
